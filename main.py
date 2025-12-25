@@ -15,7 +15,7 @@ def get_student_name():
   """Gets a student's name from query params, adds quotes, and returns it."""
   student_name = request.args.get('name')
   if student_name:  
-    return f'"djkadfvnk"' 
+    return f'"{student_name} Hello and what"' 
   return "No student name provided."
 
 if __name__ == "__main__":
