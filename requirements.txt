@@ -6,3 +6,4 @@ firebase-admin
 flasgger
 psycopg2-binary
 gunicorn
+Flask-JWT-Extended
