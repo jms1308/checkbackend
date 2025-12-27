@@ -5,3 +5,4 @@ python-dotenv
 firebase-admin
 flasgger
 psycopg2-binary
+gunicorn
